@@ -13,45 +13,6 @@
         "plumes"
       ]
     },
-    "10.3390/rs9111192": {
-      "doi": "10.3390/rs9111192",
-      "title": "Validation and Calibration of QAA Algorithm for CDOM Absorption Retrieval in the Changjiang (Yangtze) Estuarine and Coastal Waters",
-      "published": "2017-11-21",
-      "venue": "Remote Sensing",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation",
-        "optics",
-        "plumes"
-      ]
-    },
-    "10.3390/rs9020180": {
-      "doi": "10.3390/rs9020180",
-      "title": "An Empirical Ocean Colour Algorithm for Estimating the Contribution of Coloured Dissolved Organic Matter in North-Central Western Adriatic Sea",
-      "published": "2017-02-21",
-      "venue": "Remote Sensing",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation",
-        "datasets",
-        "plumes"
-      ]
-    },
-    "10.5194/bgd-7-5675-2010": {
-      "doi": "10.5194/bgd-7-5675-2010",
-      "title": "Fluorescence and absorption properties of chromophoric dissolved organic matter (CDOM) in coastal surface waters of the Northwestern Mediterranean Sea (Bay of Marseilles, France)",
-      "published": "2010-07-22",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "validation",
-        "datasets",
-        "plumes"
-      ]
-    },
     "10.5281/zenodo.19810159": {
       "doi": "10.5281/zenodo.19810159",
       "title": "First-Derivative Analysis for Estimating Bio-optical Properties and Attenuation Coefficients in Shallow Coastal Waters.",
@@ -100,18 +61,6 @@
         "datasets"
       ]
     },
-    "10.21203/rs.3.rs-7029413/v1": {
-      "doi": "10.21203/rs.3.rs-7029413/v1",
-      "title": "Field Validation of Chromophoric Dissolved Organic Matter (CDOM) Absorbance as a Proxy for Dissolved Organic Carbon (DOC) in Tropical Coastal Waters Influenced by Aquaculture Effluent",
-      "published": "2025-08-19",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "validation",
-        "plumes"
-      ]
-    },
     "10.83395/j6c3-qh38": {
       "doi": "10.83395/j6c3-qh38",
       "title": "Carbon fractions (TOC, DOC, DIC) measured from coastal waters of the Baltic Sea in 2023-2024",
@@ -157,136 +106,6 @@
       "kind": "Dataset",
       "topics": [
         "validation",
-        "plumes"
-      ]
-    },
-    "10.3390/rs13061145": {
-      "doi": "10.3390/rs13061145",
-      "title": "CDOM Optical Properties and DOC Content in the Largest Mixing Zones of the Siberian Shelf Seas",
-      "published": "2021-03-17",
-      "venue": "Remote Sensing",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation",
-        "plumes"
-      ]
-    },
-    "10.5194/egusphere-egu21-12720": {
-      "doi": "10.5194/egusphere-egu21-12720",
-      "title": "A pan-Arctic algorithm for DOC concentrations from CDOM spectra",
-      "published": "2021-03-04",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "validation",
-        "plumes"
-      ]
-    },
-    "10.5194/egusphere-egu21-15997": {
-      "doi": "10.5194/egusphere-egu21-15997",
-      "title": "Evaluating Dissolved Organic Carbon Retrieval in the Lena River Delta using Sentinel 3 OLCI Data",
-      "published": "2021-03-04",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "validation",
-        "plumes"
-      ]
-    },
-    "10.5194/egusphere-egu2020-19058": {
-      "doi": "10.5194/egusphere-egu2020-19058",
-      "title": "Retrieval of hyperspectral CDOM absorption with integrating cavity sphere",
-      "published": "2020-03-23",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "validation",
-        "datasets"
-      ]
-    },
-    "10.5194/egusphere-egu2020-6846": {
-      "doi": "10.5194/egusphere-egu2020-6846",
-      "title": "A Virtual Geostationary Ocean Colour Sensor to characterise the river-sea interaction over the North Adriatic Sea.",
-      "published": "2020-03-23",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "optics",
-        "plumes"
-      ]
-    },
-    "10.3390/app8122687": {
-      "doi": "10.3390/app8122687",
-      "title": "Remote Sensing of CDOM, CDOM Spectral Slope, and Dissolved Organic Carbon in the Global Ocean",
-      "published": "2018-12-19",
-      "venue": "Applied Sciences",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation",
-        "plumes"
-      ]
-    },
-    "10.5194/bg-2017-286": {
-      "doi": "10.5194/bg-2017-286",
-      "title": "Towards an assessment of riverine dissolved organic carbon in surface waters of the Western Arctic Ocean based on remote sensing and biogeochemical modeling",
-      "published": "2017-07-11",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "validation",
-        "plumes"
-      ]
-    },
-    "10.5194/os-10-377-2014": {
-      "doi": "10.5194/os-10-377-2014",
-      "title": "Evaluation of MERIS products from Baltic Sea coastal waters rich in CDOM",
-      "published": "2014-05-23",
-      "venue": "Ocean Science",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation",
-        "datasets"
-      ]
-    },
-    "10.5194/bgd-10-12217-2013": {
-      "doi": "10.5194/bgd-10-12217-2013",
-      "title": "Absorption features of chromophoric dissolved organic matter (CDOM) and tracing implication for dissolved organic carbon (DOC) in Changjiang Estuary, China",
-      "published": "2013-07-19",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "validation",
-        "optics"
-      ]
-    },
-    "10.1016/j.teadva.2026.200160": {
-      "doi": "10.1016/j.teadva.2026.200160",
-      "title": "CDOM absorbance as a proxy for dissolved organic carbon in tropical coastal waters influenced by aquaculture effluent: A multi-system field validation",
-      "published": "2026-09",
-      "venue": "Total Environment Advances",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation"
-      ]
-    },
-    "10.5194/egusphere-egu26-8828": {
-      "doi": "10.5194/egusphere-egu26-8828",
-      "title": "Dissolved organic carbon export mechanism at a typical flash flood catchment: insights from high-frequency measurements and modellings",
-      "published": "2026-03-14",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
         "plumes"
       ]
     },
@@ -367,28 +186,6 @@
         "datasets"
       ]
     },
-    "10.1007/s10661-025-14826-5": {
-      "doi": "10.1007/s10661-025-14826-5",
-      "title": "Assessment and refinement of CDOM retrieval methods for coastal waters in the South Eastern Arabian Sea",
-      "published": "2025-12-09",
-      "venue": "Environmental Monitoring and Assessment",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation"
-      ]
-    },
-    "10.5194/egusphere-2025-5405": {
-      "doi": "10.5194/egusphere-2025-5405",
-      "title": "Selective accumulation of dissolved organic matter in the sea surface microlayer: Insights from CDOM and FDOM characterisation at a Mediterranean coastal site",
-      "published": "2025-11-12",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "datasets"
-      ]
-    },
     "10.3389/fmars.2025.1549312": {
       "doi": "10.3389/fmars.2025.1549312",
       "title": "A hyperspectral approach for retrieving inherent optical properties, phytoplankton pigments, and associated uncertainties from non-water absorption",
@@ -398,119 +195,6 @@
       "kind": "Paper",
       "topics": [
         "validation"
-      ]
-    },
-    "10.3389/frsen.2025.1574347": {
-      "doi": "10.3389/frsen.2025.1574347",
-      "title": "Positive correlation between the Po River discharge and ocean colour trends of Chl and TSM in the Adriatic Sea",
-      "published": "2025-04-10",
-      "venue": "Frontiers in Remote Sensing",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "plumes"
-      ]
-    },
-    "10.5194/egusphere-2025-973": {
-      "doi": "10.5194/egusphere-2025-973",
-      "title": "Terrestrial browning from Colored Dissolved Organic Matter (CDOM) changes the seasonal phenology of the coastal Arctic carbon cycle",
-      "published": "2025-03-13",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "plumes"
-      ]
-    },
-    "10.5194/egusphere-egu24-10202": {
-      "doi": "10.5194/egusphere-egu24-10202",
-      "title": "Critical decade for freshwater discharge into the Adriatic Sea",
-      "published": "2025-01-20",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "plumes"
-      ]
-    },
-    "10.5194/egusphere-egu24-11560": {
-      "doi": "10.5194/egusphere-egu24-11560",
-      "title": "Compound Flood Potential from Co-occurrence of River Discharge and Storm Surge in Croatia",
-      "published": "2025-01-20",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "plumes"
-      ]
-    },
-    "10.5194/egusphere-egu24-9126": {
-      "doi": "10.5194/egusphere-egu24-9126",
-      "title": "Climate Change Impacts on the Adriatic Sea: Integrating Sea State Indicators and River Release Dynamics",
-      "published": "2025-01-20",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "plumes"
-      ]
-    },
-    "10.5194/bg-7-4083-2010": {
-      "doi": "10.5194/bg-7-4083-2010",
-      "title": "Fluorescence and absorption properties of chromophoric dissolved organic matter (CDOM) in coastal surface waters of the northwestern Mediterranean Sea, influence of the Rhône River",
-      "published": "2010-12-23",
-      "venue": "Biogeosciences",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation",
-        "datasets",
-        "plumes"
-      ]
-    },
-    "10.5194/bg-10-917-2013": {
-      "doi": "10.5194/bg-10-917-2013",
-      "title": "Estimating absorption coefficients of colored dissolved organic matter (CDOM) using a semi-analytical algorithm for southern Beaufort Sea waters: application to deriving concentrations of dissolved organic carbon from space",
-      "published": "2013-02-08",
-      "venue": "Biogeosciences",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "validation",
-        "plumes"
-      ]
-    },
-    "10.3390/rs18203572": {
-      "doi": "10.3390/rs18203572",
-      "title": "Spectral Proxy Parameter Linking Remote Sensing Reflectance and Inherent Optical Properties in Case-2 Waters",
-      "published": "2026-10-18",
-      "venue": "Remote Sensing",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "optics"
-      ]
-    },
-    "10.5194/amt-2018-325": {
-      "doi": "10.5194/amt-2018-325",
-      "title": "Accurate measurements of atmospheric carbon dioxide and methane mole fractions at\nthe Siberian coastal site Ambarchik",
-      "published": "2018-10-09",
-      "venue": "Crossref",
-      "source": "Crossref",
-      "kind": "Preprint",
-      "topics": [
-        "plumes"
-      ]
-    },
-    "10.1016/j.scitotenv.2018.03.379": {
-      "doi": "10.1016/j.scitotenv.2018.03.379",
-      "title": "Investigation of an early season river flood pulse: Carbon cycling in a subtropical estuary",
-      "published": "2018-09",
-      "venue": "Science of The Total Environment",
-      "source": "Crossref",
-      "kind": "Paper",
-      "topics": [
-        "plumes"
       ]
     },
     "10.1002/lno.10479": {
@@ -545,35 +229,274 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2007jc004493": {
+      "doi": "10.1029/2007jc004493",
+      "title": "Algorithm development and validation for satellite‐derived distributions of DOC and CDOM in the U.S. Middle Atlantic Bight",
+      "published": "2008-07",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "plumes"
+      ]
+    },
+    "10.3389/fmars.2026.1839106": {
+      "doi": "10.3389/fmars.2026.1839106",
+      "title": "Seasonal variability in lateral carbon exchange and dissolved organic matter exports from a salt-marsh tidal creek of the Yellow River Delta",
+      "published": "2026-06-30",
+      "venue": "Frontiers in Marine Science",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1594/pangaea.983227": {
+      "doi": "10.1594/pangaea.983227",
+      "title": "Absorption coefficients by non-water components at the first eight Ocean Land Colour Imager bands from a global in-situ collection of open ocean, coastal and inland surface waters matched to OLCI",
+      "published": "2025",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "validation"
+      ]
+    },
+    "10.1594/pangaea.983161": {
+      "doi": "10.1594/pangaea.983161",
+      "title": "Absorption coefficients by coloured detrital and dissolved organic matter from a global surface water in-situ collection at the first eight bands of and matched to the Ocean Land Colour Imager (OLCI)",
+      "published": "2025",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "validation"
+      ]
+    },
+    "10.1364/oe.522794": {
+      "doi": "10.1364/oe.522794",
+      "title": "Machine learning based aerosol and ocean color joint retrieval algorithm for multiangle polarimeters over coastal waters",
+      "published": "2024-08-05",
+      "venue": "Optics Express",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "optics"
+      ]
+    },
+    "10.1594/pangaea.971945": {
+      "doi": "10.1594/pangaea.971945",
+      "title": "Coastal Atmosphere & Sea Time Series (CoASTS) and Bio-Optical mapping of Marine optical Properties (BiOMaP): the near- surface marine bio-optical data",
+      "published": "2024",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "optics"
+      ]
+    },
+    "10.1594/pangaea.955904": {
+      "doi": "10.1594/pangaea.955904",
+      "title": "Natural sea surface slicks from the Baltic Sea investigated for cell and virus-like particle abundance, surfactants and dissolved organic carbon in May 2021",
+      "published": "2023",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "datasets"
+      ]
+    },
+    "10.3389/fmars.2022.967627": {
+      "doi": "10.3389/fmars.2022.967627",
+      "title": "Inherent Optical Properties based Vulnerability Assessment of Euphotic Zone Compression in peatland influenced Southeast Asian coastal waters",
+      "published": "2022-09-14",
+      "venue": "Frontiers in Marine Science",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
+    },
+    "10.1594/pangaea.938491": {
+      "doi": "10.1594/pangaea.938491",
+      "title": "Absorption coefficients by coloured dissolved organic matter from North Sea to Fram Strait measured at fixed stations with a Liquid Waveguide Capillary Cell system during POLARSTERN cruise PS99.1",
+      "published": "2021",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "datasets"
+      ]
+    },
+    "10.1594/pangaea.938494": {
+      "doi": "10.1594/pangaea.938494",
+      "title": "Absorption coefficients by coloured dissolved organic matter from North Sea to Fram Strait measured underway with a Liquid Waveguide Capillary Cell system during POLARSTERN cruise PS99.1",
+      "published": "2021",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "datasets"
+      ]
+    },
+    "10.1594/pangaea.938473": {
+      "doi": "10.1594/pangaea.938473",
+      "title": "Absorption coefficients by coloured dissolved organic matter (CDOM) from North Sea to Fram Strait measured underway with a Liquid Waveguide Capillary Cell system during POLARSTERN cruise PS121",
+      "published": "2021",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "datasets"
+      ]
+    },
+    "10.1594/pangaea.938472": {
+      "doi": "10.1594/pangaea.938472",
+      "title": "Absorption coefficients by coloured dissolved organic matter (CDOM) from North Sea to Fram Strait measured at fixed stations with a Liquid Waveguide Capillary Cell system during POLARSTERN cruise PS121",
+      "published": "2021",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "datasets"
+      ]
+    },
+    "10.1594/pangaea.938384": {
+      "doi": "10.1594/pangaea.938384",
+      "title": "Absorption coefficients by coloured dissolved organic matter obtained underway with a Liquid Waveguide Capillary Cell system during HEINCKE cruise HE462 in the North Sea and Sogne Fjord",
+      "published": "2021",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "datasets"
+      ]
+    },
+    "10.1594/pangaea.938383": {
+      "doi": "10.1594/pangaea.938383",
+      "title": "Absorption coefficients by coloured dissolved organic matter obtained at fixed stations with a Liquid Waveguide Capillary Cell system during HEINCKE cruise HE462 in the North Sea and Sogne Fjord",
+      "published": "2021",
+      "venue": "PANGAEA",
+      "source": "DataCite",
+      "kind": "Dataset",
+      "topics": [
+        "datasets"
+      ]
+    },
+    "10.1029/2020jc016661": {
+      "doi": "10.1029/2020jc016661",
+      "title": "Inherent Optical Properties‐Reflectance Relationships Revisited",
+      "published": "2020-11",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "optics"
+      ]
+    },
+    "10.1364/oe.23.000033": {
+      "doi": "10.1364/oe.23.000033",
+      "title": "CDOM-DOC relationship in contrasted coastal waters: implication for DOC retrieval from ocean color remote sensing observation",
+      "published": "2015-01-05",
+      "venue": "Optics Express",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
+    },
+    "10.1016/j.rse.2014.06.027": {
+      "doi": "10.1016/j.rse.2014.06.027",
+      "title": "Algorithm development and validation of CDOM properties for estuarine and continental shelf waters along the northeastern U.S. coast",
+      "published": "2014-09",
+      "venue": "Remote Sensing of Environment",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
+    },
+    "10.1016/j.rse.2012.10.013": {
+      "doi": "10.1016/j.rse.2012.10.013",
+      "title": "An algorithm to retrieve absorption coefficient of chromophoric dissolved organic matter from ocean color",
+      "published": "2013-01",
+      "venue": "Remote Sensing of Environment",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
+    },
+    "10.4319/lo.2012.57.5.1453": {
+      "doi": "10.4319/lo.2012.57.5.1453",
+      "title": "The spectral slope coefficient of chromophoric dissolved organic matter (\n                     S \n                     275–295 \n                    ) as a tracer of terrigenous dissolved organic carbon in river‐influenced ocean margins",
+      "published": "2012-08-21",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1016/j.rse.2007.06.015": {
+      "doi": "10.1016/j.rse.2007.06.015",
+      "title": "On the use of ocean color remote sensing to measure the transport of dissolved organic carbon by the Mississippi River Plume",
+      "published": "2008-03",
+      "venue": "Remote Sensing of Environment",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1126/science.1096175": {
+      "doi": "10.1126/science.1096175",
+      "title": "Degradation of Terrigenous Dissolved Organic Carbon in the Western Arctic Ocean",
+      "published": "2004-05-07",
+      "venue": "Science",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.4319/lo.2004.49.3.0735": {
+      "doi": "10.4319/lo.2004.49.3.0735",
+      "title": "Black carbon in estuarine and coastal ocean dissolved organic matter",
+      "published": "2004-05",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1029/1999jc900217": {
+      "doi": "10.1029/1999jc900217",
+      "title": "Process studies on the Po River plume, North Adriatic Sea",
+      "published": "1999-12-15",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
     "2026-10-19": {
       "items": [
         "10.1594/pangaea.983195",
-        "10.3390/rs9111192",
-        "10.3390/rs9020180",
-        "10.5194/bgd-7-5675-2010",
         "10.5281/zenodo.19810159",
         "10.1594/pangaea.987974",
         "10.48457/iopan.2026.564",
         "10.1594/pangaea.988431",
-        "10.21203/rs.3.rs-7029413/v1",
         "10.83395/j6c3-qh38",
         "10.48457/iopan.2025.485",
         "10.5061/dryad.rbnzs7hfg",
         "10.20350/digitalcsic/15721",
-        "10.3390/rs13061145",
-        "10.5194/egusphere-egu21-12720",
-        "10.5194/egusphere-egu21-15997",
-        "10.5194/egusphere-egu2020-19058",
-        "10.5194/egusphere-egu2020-6846",
-        "10.3390/app8122687",
-        "10.5194/bg-2017-286",
-        "10.5194/os-10-377-2014",
-        "10.5194/bgd-10-12217-2013",
-        "10.1016/j.teadva.2026.200160",
-        "10.5194/egusphere-egu26-8828",
         "10.1594/pangaea.993510",
         "10.5281/zenodo.19290710",
         "10.5281/zenodo.21510285",
@@ -581,26 +504,38 @@
         "10.5281/zenodo.20429991",
         "10.1594/pangaea.996292",
         "10.1594/pangaea.989754",
-        "10.1007/s10661-025-14826-5",
-        "10.5194/egusphere-2025-5405",
         "10.3389/fmars.2025.1549312",
-        "10.3389/frsen.2025.1574347",
-        "10.5194/egusphere-2025-973",
-        "10.5194/egusphere-egu24-10202",
-        "10.5194/egusphere-egu24-11560",
-        "10.5194/egusphere-egu24-9126",
-        "10.5194/bg-7-4083-2010",
-        "10.5194/bg-10-917-2013",
-        "10.3390/rs18203572",
-        "10.5194/amt-2018-325",
-        "10.1016/j.scitotenv.2018.03.379",
         "10.1002/lno.10479",
         "10.4319/lo.2013.58.2.0475",
-        "10.1029/2010jg001633"
+        "10.1029/2010jg001633",
+        "10.1029/2007jc004493",
+        "10.3389/fmars.2026.1839106",
+        "10.1594/pangaea.983227",
+        "10.1594/pangaea.983161",
+        "10.1364/oe.522794",
+        "10.1594/pangaea.971945",
+        "10.1594/pangaea.955904",
+        "10.3389/fmars.2022.967627",
+        "10.1594/pangaea.938491",
+        "10.1594/pangaea.938494",
+        "10.1594/pangaea.938473",
+        "10.1594/pangaea.938472",
+        "10.1594/pangaea.938384",
+        "10.1594/pangaea.938383",
+        "10.1029/2020jc016661",
+        "10.1364/oe.23.000033",
+        "10.1016/j.rse.2014.06.027",
+        "10.1016/j.rse.2012.10.013",
+        "10.4319/lo.2012.57.5.1453",
+        "10.1016/j.rse.2007.06.015",
+        "10.1126/science.1096175",
+        "10.4319/lo.2004.49.3.0735",
+        "10.1029/1999jc900217"
       ],
-      "run_at": "2026-10-19 21:18 CEST",
+      "run_at": "2026-10-19 21:31 CEST",
       "errors": []
     }
   },
-  "last_success": "2026-10-19"
+  "last_success": "2026-10-19",
+  "policy_version": "journal-whitelist-v1"
 }
