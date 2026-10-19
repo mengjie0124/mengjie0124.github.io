@@ -483,6 +483,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2021gl096343": {
+      "doi": "10.1029/2021gl096343",
+      "title": "River Organic Carbon Fluxes Modulated by Hydrodynamic Sorting of Particulate Organic Matter",
+      "published": "2022-02-03",
+      "venue": "Geophysical Research Letters",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -530,9 +541,10 @@
         "10.1016/j.rse.2007.06.015",
         "10.1126/science.1096175",
         "10.4319/lo.2004.49.3.0735",
-        "10.1029/1999jc900217"
+        "10.1029/1999jc900217",
+        "10.1029/2021gl096343"
       ],
-      "run_at": "2026-10-19 21:31 CEST",
+      "run_at": "2026-10-19 21:40 CEST",
       "errors": []
     }
   },
