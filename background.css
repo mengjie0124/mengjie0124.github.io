@@ -15,6 +15,14 @@ header{background:rgba(255,255,255,.88);border-bottom-color:var(--line);backdrop
 nav a{color:#53676f}
 .card{background:rgba(255,255,255,.94);border-color:var(--line);box-shadow:var(--shadow);backdrop-filter:blur(10px)}
 .profile{background:rgba(255,255,255,.96)}
+.keywords{display:grid;gap:.25rem;margin:1rem 0 1.4rem}
+.profile-links{display:grid;text-align:left;border-top:1px solid var(--line);padding-top:1rem;gap:.6rem}
+.profile-links>a,.profile-links>span{display:flex;align-items:center;gap:.6rem;font-size:.8rem}
+.profile-links>span{color:var(--text)}
+.hero h2{font-size:clamp(2.8rem,4.5vw,4rem)}
+#publications a,#publications time,#publications p{color:#17262c}
+.contact-logo{display:block;width:220px;max-width:100%;height:96px;object-fit:cover;object-position:center;margin:0 0 1.2rem}
+@media(max-width:850px){.keywords{grid-column:2}.profile-links{grid-column:1/-1;display:grid}.hero h2{font-size:2.8rem}}
 .hero{min-height:330px}
 .hero>p:not(.eyebrow){max-width:780px;color:var(--muted);margin:1.25rem 0 0}
 .email-title{margin-top:1.4rem}
