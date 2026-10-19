@@ -19,6 +19,39 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / "papers" / "catalog.json"
+POLICY_VERSION = "journal-whitelist-v1"
+JOURNALS = [
+    "Nature", "Science", "Proceedings of the National Academy of Sciences",
+    "Remote Sensing of Environment", "ISPRS Journal of Photogrammetry and Remote Sensing",
+    "IEEE Transactions on Geoscience and Remote Sensing", "Earth System Science Data",
+    "Limnology and Oceanography", "Limnology and Oceanography: Methods", "Optics Express",
+    "Geophysical Research Letters", "Journal of Geophysical Research: Oceans",
+    "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "Journal of Geophysical Research: Biogeosciences", "Frontiers in Marine Science",
+]
+
+
+def journal_key(name):
+    return re.sub(r"[^a-z0-9]", "", plain(name).lower().replace("&", "and"))
+
+
+def allowed_journal(name, doi="", publisher=""):
+    if doi.lower().startswith("10.3390/") or "mdpi" in publisher.lower():
+        return False
+    return journal_key(name) in {journal_key(j) for j in JOURNALS}
+
+
+def apply_policy(state):
+    removed = {doi for doi, p in state["records"].items()
+               if doi.lower().startswith("10.3390/") or (p["kind"] != "Dataset" and (p["kind"] != "Paper" or not allowed_journal(p["venue"], doi)))}
+    for doi in removed:
+        del state["records"][doi]
+    for entry in state["days"].values():
+        entry["items"] = [doi for doi in entry["items"] if doi in state["records"]]
+    if state.get("policy_version") != POLICY_VERSION:
+        state["last_success"] = None
+        state["policy_version"] = POLICY_VERSION
+    return len(removed)
 TOPICS = {
     "validation": "CDOM / DOC algorithm assessment",
     "optics": "IOPs & optical water types",
@@ -96,11 +129,12 @@ def request_json(base, params):
 def crossref_record(item):
     title = plain((item.get("title") or [""])[0])
     tags = classify(title, plain(item.get("abstract")))
-    if not title or not tags or item.get("type") not in {"journal-article", "posted-content", "proceedings-article", "dataset"}:
+    venue = plain((item.get("container-title") or [""])[0])
+    if not title or not tags or item.get("type") != "journal-article" or not allowed_journal(venue, item.get("DOI", ""), item.get("publisher", "")):
         return None
     parts = (item.get("published", {}).get("date-parts") or [[]])[0]
     return {"doi": item["DOI"].lower(), "title": title, "published": "-".join(str(p).zfill(2) if i else str(p) for i, p in enumerate(parts)),
-            "venue": plain((item.get("container-title") or ["Crossref"])[0]), "source": "Crossref", "kind": "Preprint" if item.get("type") == "posted-content" else "Paper", "topics": tags}
+            "venue": venue, "source": "Crossref", "kind": "Paper", "topics": tags}
 
 
 def datacite_record(item):
@@ -113,6 +147,8 @@ def datacite_record(item):
     publisher = a.get("publisher", "DataCite")
     if isinstance(publisher, dict):
         publisher = publisher.get("name", "DataCite")
+    if a["doi"].lower().startswith("10.3390/") or "mdpi" in publisher.lower():
+        return None
     return {"doi": a["doi"].lower(), "title": title, "published": str(a.get("publicationYear") or ""),
             "venue": plain(publisher), "source": "DataCite", "kind": "Dataset", "topics": tags}
 
@@ -152,7 +188,8 @@ def render(state):
         body = f'<a href="index.html">← All dates</a><h1>Literature discovered on {day}</h1><p>Run: {esc(entry["run_at"])} · {count} new records</p>{warning}<div class="paper-list">' + ("".join(records) or empty) + '</div>'
         atomic_write(ROOT / "papers" / f"{day}.html", shell(day, body))
     status = "" if days else '<p class="card empty">The first literature search has not run yet. Daily reports will appear after the updater completes successfully.</p>'
-    body = '<h1>Daily Literature</h1><p class="intro">Ocean-colour algorithms, coastal optics, European in-situ datasets, and flood-driven river-plume carbon cycling.</p><div class="tags">' + "".join(f'<span>{esc(t)}</span>' for t in TOPICS.values()) + '</div><p class="feed-note">Dates indicate when records were discovered, not publication dates. New DOI metadata and dataset updates are checked daily; older publications can appear when newly indexed. Duplicate DOIs are omitted across days. This is an automated metadata search, not an exhaustive review or a claim that dataset contents have been validated.</p><h2>Dates</h2><div class="date-grid">' + "".join(cards) + '</div>' + status
+    policy = '<details class="feed-note"><summary>Journal selection · MDPI excluded</summary><p>Journal papers are restricted to the list below. Preprints and conference papers are excluded. Original research datasets are kept separately and are not subject to the journal list.</p><ul>' + ''.join(f'<li>{esc(j)}</li>' for j in JOURNALS) + '</ul></details>'
+    body = '<h1>Daily Literature</h1><p class="intro">Ocean-colour algorithms, coastal optics, European in-situ datasets, and flood-driven river-plume carbon cycling.</p><div class="tags">' + "".join(f'<span>{esc(t)}</span>' for t in TOPICS.values()) + '</div>' + policy + '<p class="feed-note">Dates indicate when records were discovered, not publication dates. New DOI metadata and dataset updates are checked daily; older publications can appear when newly indexed. Duplicate DOIs are omitted across days. This is an automated metadata search, not an exhaustive review or a claim that dataset contents have been validated.</p><h2>Dates</h2><div class="date-grid">' + "".join(cards) + '</div>' + status
     atomic_write(ROOT / "papers" / "index.html", shell("Daily Literature", body))
 
 
@@ -170,11 +207,19 @@ def update():
         assert not classify("CDOM and DOC in inland waters in China", "Comparison with coastal marine validation")
         assert not classify("Occurrence Download", "Marine DOC carbon river validation Europe")
         assert not classify("The Atlantis Narrative", "Adriatic marine river carbon DOC validation")
+        assert allowed_journal("Limnology and Oceanography: Methods")
+        assert allowed_journal("Journal of Geophysical Research: Oceans")
+        assert not allowed_journal("Remote Sensing", "10.3390/rs123")
+        assert not allowed_journal("Nature", "10.3390/fake", "MDPI")
+        assert not allowed_journal("An unrelated journal")
         print("Topic filters passed")
         return
     state = json.loads(STATE.read_text()) if STATE.exists() else {"records": {}, "days": {}, "last_success": None}
+    removed = apply_policy(state)
+    print(f"Journal policy: removed {removed} non-matching archive records", flush=True)
     if args.render_only:
         render(state)
+        atomic_write(STATE, json.dumps(state, ensure_ascii=False, indent=2) + "\n")
         return
     now = dt.datetime.now(ZoneInfo("Europe/Rome"))
     day = now.date().isoformat()
@@ -185,7 +230,7 @@ def update():
     for query in QUERIES:
         print(f"Searching Crossref: {query}", flush=True)
         try:
-            data = request_json("https://api.crossref.org/works", {"query": query, "rows": 40, "filter": f"from-index-date:{since},until-index-date:{day}", "sort": "relevance"})
+            data = request_json("https://api.crossref.org/works", {"query": query, "rows": 100, "filter": f"from-index-date:{since},until-index-date:{day}", "sort": "relevance"})
             for item in data["message"]["items"]:
                 record = crossref_record(item)
                 if record:
