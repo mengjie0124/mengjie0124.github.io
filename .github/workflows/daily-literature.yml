@@ -1,0 +1,46 @@
+name: Daily literature and Pages
+on:
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: literature-pages
+  cancel-in-progress: false
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate filters
+        run: python scripts/update_literature.py --check
+      - name: Search and render daily archive
+        run: python scripts/update_literature.py
+      - name: Save archive for deduplication and history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add papers
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update daily literature archive'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy updated website
+        id: deployment
+        uses: actions/deploy-pages@v4
