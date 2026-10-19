@@ -454,6 +454,97 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.5194/bg-7-4083-2010": {
+      "doi": "10.5194/bg-7-4083-2010",
+      "title": "Fluorescence and absorption properties of chromophoric dissolved organic matter (CDOM) in coastal surface waters of the northwestern Mediterranean Sea, influence of the Rhône River",
+      "published": "2010-12-23",
+      "venue": "Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "datasets",
+        "plumes"
+      ]
+    },
+    "10.5194/bg-10-917-2013": {
+      "doi": "10.5194/bg-10-917-2013",
+      "title": "Estimating absorption coefficients of colored dissolved organic matter (CDOM) using a semi-analytical algorithm for southern Beaufort Sea waters: application to deriving concentrations of dissolved organic carbon from space",
+      "published": "2013-02-08",
+      "venue": "Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "plumes"
+      ]
+    },
+    "10.3390/rs18203572": {
+      "doi": "10.3390/rs18203572",
+      "title": "Spectral Proxy Parameter Linking Remote Sensing Reflectance and Inherent Optical Properties in Case-2 Waters",
+      "published": "2026-10-18",
+      "venue": "Remote Sensing",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "optics"
+      ]
+    },
+    "10.5194/amt-2018-325": {
+      "doi": "10.5194/amt-2018-325",
+      "title": "Accurate measurements of atmospheric carbon dioxide and methane mole fractions at\nthe Siberian coastal site Ambarchik",
+      "published": "2018-10-09",
+      "venue": "Crossref",
+      "source": "Crossref",
+      "kind": "Preprint",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1016/j.scitotenv.2018.03.379": {
+      "doi": "10.1016/j.scitotenv.2018.03.379",
+      "title": "Investigation of an early season river flood pulse: Carbon cycling in a subtropical estuary",
+      "published": "2018-09",
+      "venue": "Science of The Total Environment",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1002/lno.10479": {
+      "doi": "10.1002/lno.10479",
+      "title": "Dynamics and production of dissolved organic carbon in a large continental shelf system under the influence of both river plume and coastal upwelling",
+      "published": "2017-03-02",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.4319/lo.2013.58.2.0475": {
+      "doi": "10.4319/lo.2013.58.2.0475",
+      "title": "Groundwater‐derived dissolved inorganic and organic carbon exports from a mangrove tidal creek: The missing mangrove carbon sink?",
+      "published": "2013-02-09",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1029/2010jg001633": {
+      "doi": "10.1029/2010jg001633",
+      "title": "Seasonal phototransformation of dissolved organic matter to ammonium, dissolved inorganic carbon, and labile substrates supporting bacterial biomass across the Baltic Sea",
+      "published": "2012-01-19",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -497,9 +588,17 @@
         "10.5194/egusphere-2025-973",
         "10.5194/egusphere-egu24-10202",
         "10.5194/egusphere-egu24-11560",
-        "10.5194/egusphere-egu24-9126"
+        "10.5194/egusphere-egu24-9126",
+        "10.5194/bg-7-4083-2010",
+        "10.5194/bg-10-917-2013",
+        "10.3390/rs18203572",
+        "10.5194/amt-2018-325",
+        "10.1016/j.scitotenv.2018.03.379",
+        "10.1002/lno.10479",
+        "10.4319/lo.2013.58.2.0475",
+        "10.1029/2010jg001633"
       ],
-      "run_at": "2026-10-19 21:11 CEST",
+      "run_at": "2026-10-19 21:18 CEST",
       "errors": []
     }
   },
