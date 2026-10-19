@@ -15,6 +15,9 @@ header{background:rgba(255,255,255,.88);border-bottom-color:var(--line);backdrop
 nav a{color:#53676f}
 .card{background:rgba(255,255,255,.94);border-color:var(--line);box-shadow:var(--shadow);backdrop-filter:blur(10px)}
 .profile{background:rgba(255,255,255,.96)}
+.profile h1{font-family:inherit;font-size:1.65rem;font-weight:700;line-height:1.25}
+#experience time,#education time,#publications time,#conferences time,#training time{color:#111;font-weight:700}
+.conference-entry .event-kind{margin-top:.5rem;color:#17262c;font-size:.78rem}
 .keywords{display:grid;gap:.25rem;margin:1rem 0 1.4rem}
 .profile-links{display:grid;text-align:left;border-top:1px solid var(--line);padding-top:1rem;gap:.6rem}
 .profile-links>a,.profile-links>span{display:flex;align-items:center;gap:.6rem;font-size:.8rem}
