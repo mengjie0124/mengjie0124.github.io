@@ -30,6 +30,7 @@ nav a{color:#53676f}
 @media(max-width:850px){.keywords{grid-column:2}.profile-links{grid-column:1/-1;display:grid}.hero h2{font-size:2.8rem}}
 .hero{min-height:330px}
 .event-list{display:grid;gap:1rem}
+.literature-card{padding:1.5rem}.literature-link{display:inline-block;margin-top:1rem;color:var(--blue);font-weight:600}.literature-card .literature-note{margin-top:1rem;font-size:.75rem}
 .focus-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .focus-grid h3{line-height:1.4}
 .content>section{padding:1rem 0 1.5rem}
