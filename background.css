@@ -9,7 +9,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;opa
 :root{--bg:#fff;--panel:#fff;--panel2:#fff;--text:#17262c;--muted:#66777d;--blue:#1675a3;--cyan:#087f83;--line:rgba(23,50,56,.16);--shadow:0 12px 32px rgba(19,49,61,.07)}
 body{background:#eaf1f1;color:var(--text)}
 body::before{background:url("assets/coastal-waves.png") center top/cover fixed no-repeat}
-body::after{display:block;content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;opacity:1;background:rgba(255,255,255,.68);mask-image:none}
+body::after{display:block;content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;opacity:1;background:rgba(255,255,255,.58);mask-image:none}
 .plume{display:none}
 header{background:rgba(255,255,255,.88);border-bottom-color:var(--line);backdrop-filter:blur(14px)}
 nav a{color:#53676f}
@@ -31,6 +31,10 @@ nav a{color:#53676f}
 .event-list{display:grid;gap:1rem}
 .focus-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .focus-grid h3{line-height:1.4}
+.content>section{padding:1rem 0 1.5rem}
+.content>section#research{padding-bottom:1.5rem}
+.section-title{margin-bottom:1rem;padding-bottom:.55rem}
+main{padding-bottom:3rem}
 @media(min-width:851px){
 main{padding-top:1.5rem}
 .content>section.hero{min-height:0;padding:0 0 1.2rem;justify-content:flex-start}
@@ -64,6 +68,7 @@ nav a{font-size:.8rem}
 .institution img{width:190px;height:84px;object-fit:cover;object-position:center;border-radius:0}
 .hero .lede{color:#263b42}
 .hero>p:last-child,.card p{color:var(--muted)}
+#about>p:not(.eyebrow){color:#111}
 .section-title{border-bottom-color:var(--line)}
 .icon{background:#edf8f8;border-color:#c9e7e7}
 .tags span{color:#176f78;background:#eff8f8;border-color:#d2eaea}
