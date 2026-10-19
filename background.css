@@ -30,6 +30,9 @@ nav a{color:#53676f}
 @media(max-width:850px){.keywords{grid-column:2}.profile-links{grid-column:1/-1;display:grid}.hero h2{font-size:2.8rem}}
 .hero{min-height:330px}
 .event-list{display:grid;gap:1rem}
+.divided-list{gap:0;padding:0 1.5rem}
+.divided-list>article{padding:1.4rem 0;border-bottom:1px solid var(--line)}
+.divided-list>article:last-child{border-bottom:0}
 .training-others{margin:1.5rem 0 1rem;padding-bottom:.5rem;border-bottom:1px solid var(--line);font-size:1.1rem}
 .literature-card{padding:1.5rem}.literature-link{display:inline-block;margin-top:1rem;color:var(--blue);font-weight:600}.literature-card .literature-note{margin-top:1rem;font-size:.75rem}
 .focus-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -64,6 +67,15 @@ nav a{font-size:.8rem}
 @media(max-width:600px){.event{grid-template-columns:1fr;gap:.5rem}}
 .hero>p:not(.eyebrow){max-width:780px;color:var(--muted);margin:1.25rem 0 0}
 .email-title{margin-top:1.4rem}
+.timeline time,.event time,#publications time{color:#111;font-weight:700}
+.focus-points{margin:.6rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.8rem;line-height:1.55}
+.focus-points li{padding:.2rem 0}
+.contact-grid{grid-template-columns:1fr}
+.contact-logos{display:flex;align-items:center;gap:2.5rem;flex-wrap:wrap;margin-bottom:1.2rem}
+.contact-logos .contact-logo{margin:0}
+.contact-details{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.contact-details p+p{margin-top:.75rem}
+@media(max-width:600px){.contact-details{grid-template-columns:1fr}.contact-logos{gap:1rem}}
 .contact-grid a{overflow-wrap:anywhere}
 .portrait-wrap img{border-color:rgba(8,127,131,.35)}
 .portrait-wrap span{border-color:#fff}
