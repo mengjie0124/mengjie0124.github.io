@@ -15,6 +15,10 @@ header{background:rgba(255,255,255,.88);border-bottom-color:var(--line);backdrop
 nav a{color:#53676f}
 .card{background:rgba(255,255,255,.94);border-color:var(--line);box-shadow:var(--shadow);backdrop-filter:blur(10px)}
 .profile{background:rgba(255,255,255,.96)}
+.hero{min-height:330px}
+.hero>p:not(.eyebrow){max-width:780px;color:var(--muted);margin:1.25rem 0 0}
+.email-title{margin-top:1.4rem}
+.contact-grid a{overflow-wrap:anywhere}
 .portrait-wrap img{border-color:rgba(8,127,131,.35)}
 .portrait-wrap span{border-color:#fff}
 .institution{color:#52666d;padding:.65rem 1rem;overflow:hidden}
@@ -26,4 +30,4 @@ nav a{color:#53676f}
 .tags span{color:#176f78;background:#eff8f8;border-color:#d2eaea}
 .topic-card li,.timeline article{border-bottom-color:var(--line)}
 footer{color:#5e7077;background:rgba(247,249,249,.9);border-top-color:var(--line);backdrop-filter:blur(10px)}
-@media(max-width:850px){body::before{background-position:58% top}nav{background:rgba(255,255,255,.96);border-bottom-color:var(--line)}.menu{color:var(--text)}}
+@media(max-width:850px){body::before{background-position:58% top}.hero{min-height:300px}nav{background:rgba(255,255,255,.96);border-bottom-color:var(--line)}.menu{color:var(--text)}}
