@@ -25,6 +25,7 @@ nav a{color:#53676f}
 .profile-icon.orcid{color:#a6ce39}
 .hero h2{font-size:clamp(2.8rem,4.5vw,4rem)}
 #publications a,#publications time,#publications p{color:#17262c}
+.publication-list a{font-family:inherit;font-size:1.03rem;font-weight:700;line-height:1.45}
 .contact-logo{display:block;width:220px;max-width:100%;height:96px;object-fit:cover;object-position:center;margin:0 0 1.2rem}
 @media(max-width:850px){.keywords{grid-column:2}.profile-links{grid-column:1/-1;display:grid}.hero h2{font-size:2.8rem}}
 .hero{min-height:330px}
