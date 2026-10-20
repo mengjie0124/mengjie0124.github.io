@@ -505,6 +505,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2007jc004370": {
+      "doi": "10.1029/2007jc004370",
+      "title": "Seasonal variability and Po River plume influence on biochemical properties along western Adriatic coast",
+      "published": "2008-05",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -560,9 +571,10 @@
     },
     "2026-10-20": {
       "items": [
-        "10.4319/lo.2010.55.1.0161"
+        "10.4319/lo.2010.55.1.0161",
+        "10.1029/2007jc004370"
       ],
-      "run_at": "2026-10-20 07:31 CEST",
+      "run_at": "2026-10-20 14:45 CEST",
       "errors": []
     }
   },
