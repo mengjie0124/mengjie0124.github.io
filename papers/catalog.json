@@ -494,6 +494,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.4319/lo.2010.55.1.0161": {
+      "doi": "10.4319/lo.2010.55.1.0161",
+      "title": "The role of effective discharge in the ocean delivery of particulate organic carbon by small, mountainous river systems",
+      "published": "2009-11-07",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -546,8 +557,15 @@
       ],
       "run_at": "2026-10-19 23:12 CEST",
       "errors": []
+    },
+    "2026-10-20": {
+      "items": [
+        "10.4319/lo.2010.55.1.0161"
+      ],
+      "run_at": "2026-10-20 07:31 CEST",
+      "errors": []
     }
   },
-  "last_success": "2026-10-19",
+  "last_success": "2026-10-20",
   "policy_version": "journal-whitelist-v1"
 }
