@@ -516,6 +516,28 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2019jg005442": {
+      "doi": "10.1029/2019jg005442",
+      "title": "A Comprehensive Estuarine Dissolved Organic Carbon Budget Using an Enhanced Biogeochemical Model",
+      "published": "2020-05",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1029/2005jg000031": {
+      "doi": "10.1029/2005jg000031",
+      "title": "Linkages among runoff, dissolved organic carbon, and the stable oxygen isotope composition of seawater and other water mass indicators in the Arctic Ocean",
+      "published": "2005-12",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -576,8 +598,16 @@
       ],
       "run_at": "2026-10-20 14:45 CEST",
       "errors": []
+    },
+    "2026-10-21": {
+      "items": [
+        "10.1029/2019jg005442",
+        "10.1029/2005jg000031"
+      ],
+      "run_at": "2026-10-21 14:58 CEST",
+      "errors": []
     }
   },
-  "last_success": "2026-10-20",
+  "last_success": "2026-10-21",
   "policy_version": "journal-whitelist-v1"
 }
