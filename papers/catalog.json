@@ -538,6 +538,39 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2022jc019326": {
+      "doi": "10.1029/2022jc019326",
+      "title": "Coupling of Carbon and Oxygen in the Pearl River Plume in Summer: Upwelling, Hypoxia, Reoxygenation and Enhanced Acidification",
+      "published": "2023-08",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1029/2018jg004722": {
+      "doi": "10.1029/2018jg004722",
+      "title": "Reactive Iron and Iron‐Bound Organic Carbon in Surface Sediments of the River‐Dominated Bohai Sea (China) Versus the Southern Yellow Sea",
+      "published": "2019-01",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1002/lno.10308": {
+      "doi": "10.1002/lno.10308",
+      "title": "Sediment microbial communities rely on different dissolved organic matter sources along a Mediterranean river continuum",
+      "published": "2016-05-26",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -606,8 +639,17 @@
       ],
       "run_at": "2026-10-21 14:58 CEST",
       "errors": []
+    },
+    "2026-10-22": {
+      "items": [
+        "10.1029/2022jc019326",
+        "10.1029/2018jg004722",
+        "10.1002/lno.10308"
+      ],
+      "run_at": "2026-10-22 15:00 CEST",
+      "errors": []
     }
   },
-  "last_success": "2026-10-21",
+  "last_success": "2026-10-22",
   "policy_version": "journal-whitelist-v1"
 }
