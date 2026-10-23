@@ -571,6 +571,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2010gl043963": {
+      "doi": "10.1029/2010gl043963",
+      "title": "Aged black carbon identified in marine dissolved organic carbon",
+      "published": "2010-08",
+      "venue": "Geophysical Research Letters",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -648,8 +659,15 @@
       ],
       "run_at": "2026-10-22 15:00 CEST",
       "errors": []
+    },
+    "2026-10-23": {
+      "items": [
+        "10.1029/2010gl043963"
+      ],
+      "run_at": "2026-10-23 14:39 CEST",
+      "errors": []
     }
   },
-  "last_success": "2026-10-22",
+  "last_success": "2026-10-23",
   "policy_version": "journal-whitelist-v1"
 }
