@@ -627,6 +627,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1073/pnas.2505838122": {
+      "doi": "10.1073/pnas.2505838122",
+      "title": "Underestimated input of terrestrial dissolved organic carbon to the ocean",
+      "published": "2025-11-03",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -726,8 +737,15 @@
       "items": [],
       "run_at": "2026-10-25 13:35 CET",
       "errors": []
+    },
+    "2026-10-26": {
+      "items": [
+        "10.1073/pnas.2505838122"
+      ],
+      "run_at": "2026-10-26 15:20 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-10-25",
+  "last_success": "2026-10-26",
   "policy_version": "journal-whitelist-v1"
 }
