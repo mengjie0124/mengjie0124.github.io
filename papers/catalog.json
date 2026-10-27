@@ -638,6 +638,50 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2024gl112792": {
+      "doi": "10.1029/2024gl112792",
+      "title": "A Machine Learning‐Based Dissolved Organic Carbon Climatology",
+      "published": "2025-04-01",
+      "venue": "Geophysical Research Letters",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
+    },
+    "10.3389/fmars.2024.1305050": {
+      "doi": "10.3389/fmars.2024.1305050",
+      "title": "A machine learning model-based satellite data record of dissolved organic carbon concentration in surface waters of the global open ocean",
+      "published": "2024-06-12",
+      "venue": "Frontiers in Marine Science",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "datasets"
+      ]
+    },
+    "10.1029/2009jg000976": {
+      "doi": "10.1029/2009jg000976",
+      "title": "Sources and transformations of chromophoric dissolved organic matter in the Neponset River Watershed",
+      "published": "2009-11-19",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1029/2007gl030216": {
+      "doi": "10.1029/2007gl030216",
+      "title": "Increased groundwater to stream discharge from permafrost thawing in the Yukon River basin: Potential impacts on lateral export of carbon and nitrogen",
+      "published": "2007-06",
+      "venue": "Geophysical Research Letters",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -744,8 +788,18 @@
       ],
       "run_at": "2026-10-26 15:20 CET",
       "errors": []
+    },
+    "2026-10-27": {
+      "items": [
+        "10.1029/2024gl112792",
+        "10.3389/fmars.2024.1305050",
+        "10.1029/2009jg000976",
+        "10.1029/2007gl030216"
+      ],
+      "run_at": "2026-10-27 14:16 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-10-26",
+  "last_success": "2026-10-27",
   "policy_version": "journal-whitelist-v1"
 }
