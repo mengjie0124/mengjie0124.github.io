@@ -682,6 +682,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.4319/lo.1997.42.4.0674": {
+      "doi": "10.4319/lo.1997.42.4.0674",
+      "title": "Seasonal variation of CDOM and DOC in the Middle Atlantic Bight: Terrestrial inputs and photooxidation",
+      "published": "1997-06",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
     }
   },
   "days": {
@@ -798,8 +809,15 @@
       ],
       "run_at": "2026-10-27 14:16 CET",
       "errors": []
+    },
+    "2026-10-28": {
+      "items": [
+        "10.4319/lo.1997.42.4.0674"
+      ],
+      "run_at": "2026-10-28 15:03 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-10-27",
+  "last_success": "2026-10-28",
   "policy_version": "journal-whitelist-v1"
 }
