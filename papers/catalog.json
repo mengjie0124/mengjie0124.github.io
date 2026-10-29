@@ -693,6 +693,17 @@
       "topics": [
         "validation"
       ]
+    },
+    "10.3389/fmars.2023.1250601": {
+      "doi": "10.3389/fmars.2023.1250601",
+      "title": "Factors controlling the distribution of dissolved organic carbon and nitrogen in the coastal waters off Jeju Island",
+      "published": "2023-09-14",
+      "venue": "Frontiers in Marine Science",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -816,8 +827,15 @@
       ],
       "run_at": "2026-10-28 15:03 CET",
       "errors": []
+    },
+    "2026-10-29": {
+      "items": [
+        "10.3389/fmars.2023.1250601"
+      ],
+      "run_at": "2026-10-29 15:25 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-10-28",
+  "last_success": "2026-10-29",
   "policy_version": "journal-whitelist-v1"
 }
