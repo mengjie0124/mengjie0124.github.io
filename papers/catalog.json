@@ -704,6 +704,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2019jc015125": {
+      "doi": "10.1029/2019jc015125",
+      "title": "Semianalytical Derivation of Phytoplankton, CDOM, and Detritus Absorption Coefficients From the Landsat 8/OLI Reflectance in Coastal Waters",
+      "published": "2019-06",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
     }
   },
   "days": {
@@ -839,8 +850,15 @@
       "items": [],
       "run_at": "2026-10-30 15:15 CET",
       "errors": []
+    },
+    "2026-10-31": {
+      "items": [
+        "10.1029/2019jc015125"
+      ],
+      "run_at": "2026-10-31 14:40 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-10-30",
+  "last_success": "2026-10-31",
   "policy_version": "journal-whitelist-v1"
 }
