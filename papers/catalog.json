@@ -715,6 +715,29 @@
       "topics": [
         "validation"
       ]
+    },
+    "10.1002/2014jc010241": {
+      "doi": "10.1002/2014jc010241",
+      "title": "A new algorithm to retrieve chromophoric dissolved organic matter (CDOM) absorption spectra in the UV from ocean color",
+      "published": "2015-01",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "optics"
+      ]
+    },
+    "10.1002/lom3.10290": {
+      "doi": "10.1002/lom3.10290",
+      "title": "Interpretation of total phytoplankton and cyanobacteria fluorescence from cross‐calibrated fluorometers, including sensitivity to turbidity and colored dissolved organic matter",
+      "published": "2018-11-15",
+      "venue": "Limnology and Oceanography: Methods",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
     }
   },
   "days": {
@@ -857,8 +880,16 @@
       ],
       "run_at": "2026-10-31 14:40 CET",
       "errors": []
+    },
+    "2026-11-01": {
+      "items": [
+        "10.1002/2014jc010241",
+        "10.1002/lom3.10290"
+      ],
+      "run_at": "2026-11-01 15:17 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-10-31",
+  "last_success": "2026-11-01",
   "policy_version": "journal-whitelist-v1"
 }
