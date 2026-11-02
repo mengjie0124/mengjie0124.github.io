@@ -738,6 +738,40 @@
       "topics": [
         "validation"
       ]
+    },
+    "10.1002/2015jg003031": {
+      "doi": "10.1002/2015jg003031",
+      "title": "Dissolved organic carbon fluxes in the Middle Atlantic Bight: An integrated approach based on satellite data and ocean model products",
+      "published": "2016-02",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "plumes"
+      ]
+    },
+    "10.1364/oe.22.013109": {
+      "doi": "10.1364/oe.22.013109",
+      "title": "Assessment of the colored dissolved organic matter in coastal waters from ocean color remote sensing",
+      "published": "2014-05-22",
+      "venue": "Optics Express",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
+    },
+    "10.4319/lo.2000.45.6.1254": {
+      "doi": "10.4319/lo.2000.45.6.1254",
+      "title": "Carbon loss and optical property changes during long‐term photochemical and biological degradation of estuarine dissolved organic matter",
+      "published": "2000-09",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -888,8 +922,17 @@
       ],
       "run_at": "2026-11-01 15:17 CET",
       "errors": []
+    },
+    "2026-11-02": {
+      "items": [
+        "10.1002/2015jg003031",
+        "10.1364/oe.22.013109",
+        "10.4319/lo.2000.45.6.1254"
+      ],
+      "run_at": "2026-11-02 18:08 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-01",
+  "last_success": "2026-11-02",
   "policy_version": "journal-whitelist-v1"
 }
