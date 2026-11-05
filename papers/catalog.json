@@ -783,6 +783,29 @@
       "topics": [
         "validation"
       ]
+    },
+    "10.1002/2015jg002912": {
+      "doi": "10.1002/2015jg002912",
+      "title": "Fluxes of dissolved organic carbon and nitrogen to the northern Indian Ocean from the Indian monsoonal rivers",
+      "published": "2015-10",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "plumes"
+      ]
+    },
+    "10.3389/fmars.2021.617241": {
+      "doi": "10.3389/fmars.2021.617241",
+      "title": "Water- and Base-Extractable Organic Matter in Sediments From Lower Yangtze River–Estuary–East China Sea Continuum: Insight Into Accumulation of Organic Carbon in the River-Dominated Margin",
+      "published": "2021-02-11",
+      "venue": "Frontiers in Marine Science",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -954,8 +977,16 @@
       "items": [],
       "run_at": "2026-11-04 16:28 CET",
       "errors": []
+    },
+    "2026-11-05": {
+      "items": [
+        "10.1002/2015jg002912",
+        "10.3389/fmars.2021.617241"
+      ],
+      "run_at": "2026-11-05 16:31 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-04",
+  "last_success": "2026-11-05",
   "policy_version": "journal-whitelist-v1"
 }
