@@ -806,6 +806,18 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2007jc004436": {
+      "doi": "10.1029/2007jc004436",
+      "title": "An empirical ocean color algorithm for estimating the contribution of chromophoric dissolved organic matter to total light absorption in optically complex waters",
+      "published": "2008-04",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "optics"
+      ]
     }
   },
   "days": {
@@ -985,8 +997,15 @@
       ],
       "run_at": "2026-11-05 16:31 CET",
       "errors": []
+    },
+    "2026-11-06": {
+      "items": [
+        "10.1029/2007jc004436"
+      ],
+      "run_at": "2026-11-06 16:07 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-05",
+  "last_success": "2026-11-06",
   "policy_version": "journal-whitelist-v1"
 }
