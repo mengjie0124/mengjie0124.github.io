@@ -818,6 +818,28 @@
         "validation",
         "optics"
       ]
+    },
+    "10.3389/fmars.2022.973694": {
+      "doi": "10.3389/fmars.2022.973694",
+      "title": "Distribution and microbial degradation of dissolved organic carbon in the northern South China Sea",
+      "published": "2022-08-16",
+      "venue": "Frontiers in Marine Science",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1029/2018jc014814": {
+      "doi": "10.1029/2018jc014814",
+      "title": "Net Submarine Groundwater‐Derived Dissolved Inorganic Nutrients and Carbon Input to the Oligotrophic Stratified Karstic Estuary of the Krka River (Adriatic Sea, Croatia)",
+      "published": "2019-06",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -1004,8 +1026,16 @@
       ],
       "run_at": "2026-11-06 16:07 CET",
       "errors": []
+    },
+    "2026-11-07": {
+      "items": [
+        "10.3389/fmars.2022.973694",
+        "10.1029/2018jc014814"
+      ],
+      "run_at": "2026-11-07 15:05 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-06",
+  "last_success": "2026-11-07",
   "policy_version": "journal-whitelist-v1"
 }
