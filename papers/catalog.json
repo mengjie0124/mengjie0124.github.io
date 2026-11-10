@@ -840,6 +840,28 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.4319/lo.2010.55.1.0315": {
+      "doi": "10.4319/lo.2010.55.1.0315",
+      "title": "Riverine export and the effects of circulation on dissolved organic carbon in the Hudson Bay system, Canada",
+      "published": "2009-12-21",
+      "venue": "Limnology and Oceanography",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
+    },
+    "10.1029/2002gl016312": {
+      "doi": "10.1029/2002gl016312",
+      "title": "Riverine inorganic carbon flux and rate of biological uptake in the Mississippi River plume",
+      "published": "2003-01",
+      "venue": "Geophysical Research Letters",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -1044,8 +1066,16 @@
       "items": [],
       "run_at": "2026-11-09 18:35 CET",
       "errors": []
+    },
+    "2026-11-10": {
+      "items": [
+        "10.4319/lo.2010.55.1.0315",
+        "10.1029/2002gl016312"
+      ],
+      "run_at": "2026-11-10 16:37 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-09",
+  "last_success": "2026-11-10",
   "policy_version": "journal-whitelist-v1"
 }
