@@ -873,6 +873,18 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2023gl105028": {
+      "doi": "10.1029/2023gl105028",
+      "title": "A Pan‐Arctic Algorithm to Estimate Dissolved Organic Carbon Concentrations From Colored Dissolved Organic Matter Spectral Absorption",
+      "published": "2023-11-03",
+      "venue": "Geophysical Research Letters",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -1112,8 +1124,15 @@
       ],
       "run_at": "2026-11-15 15:48 CET",
       "errors": []
+    },
+    "2026-11-16": {
+      "items": [
+        "10.1029/2023gl105028"
+      ],
+      "run_at": "2026-11-16 18:05 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-15",
+  "last_success": "2026-11-16",
   "policy_version": "journal-whitelist-v1"
 }
