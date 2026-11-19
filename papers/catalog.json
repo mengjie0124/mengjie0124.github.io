@@ -885,6 +885,29 @@
         "validation",
         "plumes"
       ]
+    },
+    "10.1029/2018jg004470": {
+      "doi": "10.1029/2018jg004470",
+      "title": "An Assessment of Dissolved Organic Carbon Biodegradability and Priming in Blackwater Systems",
+      "published": "2018-09",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "plumes"
+      ]
+    },
+    "10.3389/fmars.2024.1285518": {
+      "doi": "10.3389/fmars.2024.1285518",
+      "title": "Rapid mangrove expansion triggered by low river discharge episode in Nanliu river estuary, Beibu Gulf of China",
+      "published": "2024-03-08",
+      "venue": "Frontiers in Marine Science",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -1141,8 +1164,16 @@
       "items": [],
       "run_at": "2026-11-18 17:29 CET",
       "errors": []
+    },
+    "2026-11-19": {
+      "items": [
+        "10.1029/2018jg004470",
+        "10.3389/fmars.2024.1285518"
+      ],
+      "run_at": "2026-11-19 17:36 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-18",
+  "last_success": "2026-11-19",
   "policy_version": "journal-whitelist-v1"
 }
