@@ -908,6 +908,18 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2021jg006420": {
+      "doi": "10.1029/2021jg006420",
+      "title": "Modeling Terrestrial Dissolved Organic Carbon Loading to Western Arctic Rivers",
+      "published": "2021-10",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation",
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -1177,8 +1189,15 @@
       "items": [],
       "run_at": "2026-11-20 17:12 CET",
       "errors": []
+    },
+    "2026-11-21": {
+      "items": [
+        "10.1029/2021jg006420"
+      ],
+      "run_at": "2026-11-21 16:24 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-20",
+  "last_success": "2026-11-21",
   "policy_version": "journal-whitelist-v1"
 }
