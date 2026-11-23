@@ -1201,8 +1201,13 @@
       "items": [],
       "run_at": "2026-11-22 16:23 CET",
       "errors": []
+    },
+    "2026-11-23": {
+      "items": [],
+      "run_at": "2026-11-23 20:16 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-22",
+  "last_success": "2026-11-23",
   "policy_version": "journal-whitelist-v1"
 }
