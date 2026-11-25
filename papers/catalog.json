@@ -999,6 +999,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2019jc015706": {
+      "doi": "10.1029/2019jc015706",
+      "title": "Ocean Color Algorithms for Estimating Chlorophyll\n                     a \n                    , CDOM Absorption, and Particle Backscattering in the Arctic Ocean",
+      "published": "2020-06",
+      "venue": "Journal of Geophysical Research: Oceans",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "validation"
+      ]
     }
   },
   "days": {
@@ -1298,8 +1309,15 @@
       ],
       "run_at": "2026-11-24 19:55 CET",
       "errors": []
+    },
+    "2026-11-25": {
+      "items": [
+        "10.1029/2019jc015706"
+      ],
+      "run_at": "2026-11-25 18:59 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-24",
+  "last_success": "2026-11-25",
   "policy_version": "journal-whitelist-v1"
 }
