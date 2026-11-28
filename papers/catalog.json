@@ -1043,6 +1043,17 @@
       "topics": [
         "plumes"
       ]
+    },
+    "10.1029/2000gl012686": {
+      "doi": "10.1029/2000gl012686",
+      "title": "Photochemically‐induced alteration of stable carbon isotope ratios (δ 13 C) in terrigenous dissolved organic carbon",
+      "published": "2001-06-15",
+      "venue": "Geophysical Research Letters",
+      "source": "Crossref",
+      "kind": "Paper",
+      "topics": [
+        "plumes"
+      ]
     }
   },
   "days": {
@@ -1363,8 +1374,15 @@
       "items": [],
       "run_at": "2026-11-27 18:29 CET",
       "errors": []
+    },
+    "2026-11-28": {
+      "items": [
+        "10.1029/2000gl012686"
+      ],
+      "run_at": "2026-11-28 17:13 CET",
+      "errors": []
     }
   },
-  "last_success": "2026-11-27",
+  "last_success": "2026-11-28",
   "policy_version": "journal-whitelist-v1"
 }
